@@ -6,6 +6,9 @@ Designed to showcase my projects, skills, and contact information with a clean a
 
 ---
 
+[![Watch the video](https://streamable.com/ehi3hy)
+
+
 ## 🚀 Technologies Used
 
 - **React** – Frontend library for building UI
