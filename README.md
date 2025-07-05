@@ -22,7 +22,6 @@ Designed to showcase my projects, skills, and contact information with a clean a
 
 - `/src` – React components and pages
 - `/public` – Static assets
-- `/styles` – TailwindCSS customizations and global styles
 
 ---
 
@@ -38,6 +37,7 @@ Designed to showcase my projects, skills, and contact information with a clean a
 1. Clone the repo  
 ```bash
 git clone https://github.com/ugurcl/ReactPortfolio.git
+cd ReactPortfolio
 ```
 
 2. Install dependencies  
