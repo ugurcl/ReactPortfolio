@@ -72,6 +72,33 @@ const projects = [
     live: "",
     type: "bireysel",
   },
+  {
+    title: "Billionaire Spender",
+    description:
+      "Dünyanın en zengin insanlarının servetleriyle alışveriş yapmanı sağlayan, React ve TailwindCSS tabanlı eğlenceli bir simülasyon uygulaması.",
+    technologies: ["React", "TypeScript", "TailwindCSS", "Framer Motion"],
+    github: "https://github.com/ugurcl/BillionaireSpender",
+    live: "https://harcaharca.vercel.app/",
+    type: "bireysel",
+  },
+  {
+    title: "Hoca İzin Takip Sistemi",
+    description:
+      "Üniversitedeki öğretim görevlilerinin izin taleplerini oluşturabildiği ve yöneticilerin bu talepleri onaylayıp takip edebildiği Windows Forms tabanlı masaüstü uygulama.",
+    technologies: ["C#", "Windows Forms", "SQL Server"],
+    github: "",
+    live: "",
+    type: "bireysel",
+  },
+  {
+    title: "Zone – Siber Güvenlik Farkındalık Platformu",
+    description:
+      "Kamuya açık kaynaklardan elde edilen bilgilerle, güvenlik zafiyetlerine maruz kalmış web sitelerini listeleyen ve analiz eden, yalnızca eğitim ve araştırma amaçlı geliştirilen bilgi güvenliği platformu.",
+    technologies: ["Django","Html","JavaScript","Bootstrap"],
+    github: "",
+    live: "",
+    type: "bireysel",
+  },
 ];
 
 const getBadgeStyle = (type: string) => {
@@ -103,7 +130,6 @@ export const Projects = () => {
               viewport={{ once: true }}
             >
               <Card className="group relative overflow-hidden border border-neutral-800 bg-[#121212] hover:border-primary/50 transition-all duration-300 rounded-2xl shadow hover:shadow-lg hover:shadow-primary/10 p-6 flex flex-col justify-between h-full">
-        
                 <span
                   className={`absolute top-4 right-4 text-xs font-medium px-3 py-1 rounded-full border ${getBadgeStyle(
                     type
@@ -111,7 +137,6 @@ export const Projects = () => {
                 >
                   {type.charAt(0).toUpperCase() + type.slice(1)}
                 </span>
-
 
                 <div className="mb-6">
                   <CardTitle className="text-white lg:text-xl text-lg font-semibold mb-2">
@@ -122,7 +147,6 @@ export const Projects = () => {
                   </CardDescription>
                 </div>
 
-               
                 <div className="flex flex-wrap gap-2 mb-6 mt-auto">
                   {technologies.map((tech, i) => (
                     <span
@@ -134,7 +158,6 @@ export const Projects = () => {
                   ))}
                 </div>
 
-             
                 <CardFooter className="flex justify-between items-center px-0 pt-4 border-t border-neutral-800 text-sm">
                   <a
                     href={github}
