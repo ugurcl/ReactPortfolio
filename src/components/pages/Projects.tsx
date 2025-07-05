@@ -73,10 +73,20 @@ const projects = [
     type: "bireysel",
   },
   {
+    title: "Billionaire Spender",
+    description:
+      "Dünyanın en zengin insanlarının servetleriyle alışveriş yapmanı sağlayan, React ve TailwindCSS tabanlı eğlenceli bir simülasyon uygulaması.",
+    technologies: ["React", "TypeScript", "TailwindCSS", "Framer Motion"],
+    github: "https://github.com/ugurcl/BillionaireSpender",
+    live: "https://harcaharca.vercel.app/",
+    type: "bireysel",
+  },
+
+  {
     title: "Zone – Siber Güvenlik Farkındalık Platformu",
     description:
       "Kamuya açık kaynaklardan elde edilen bilgilerle, güvenlik zafiyetlerine maruz kalmış web sitelerini listeleyen ve analiz eden, yalnızca eğitim ve araştırma amaçlı geliştirilen bilgi güvenliği platformu.",
-    technologies: ["Django","Html","Css",'JavaScript',"Bootstrap"],
+    technologies: ["Node.js", "Express", "MongoDB", "EJS", "Bootstrap"],
     github: "",
     live: "",
     type: "bireysel",
